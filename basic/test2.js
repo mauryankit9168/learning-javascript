@@ -21,12 +21,12 @@ console.log(number);
         undefined
         symbol=unique
     */ 
-// console.log(typeof "ankit")
-// console.log(typeof 123)
-// console.log(typeof true)
-// console.log(typeof null)
-// console.log(typeof Symbol())
-// console.log(typeof undefined)
+console.log(typeof "ankit")
+console.log(typeof 123)
+console.log(typeof true)
+console.log(typeof null)
+console.log(typeof Symbol())
+console.log(typeof undefined)
 
  //scopes in js
  /* scope is define by {}
