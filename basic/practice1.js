@@ -19,6 +19,6 @@ console.log(typeof product["isDeal"]);
         isFollow:true,
         about:"apna college"
     };
-    //console.log(profile);
+    console.log(profile);
     console.log(typeof profile.isFollow);
 
