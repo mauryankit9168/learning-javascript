@@ -1,16 +1,7 @@
 "use strict";
 // alert(3+3); // use in browser console
 
-//arthematic operator
-//+,-,*,/,%
-//example 
-// let a=5+5;
-// let b=6-7;
-// let c=4*9;
-// let d=6/2;
-// let e=3%2;
 
-// console.table([a,b,c,d,e]);
 
 let a="ankit";
 let age=21;
