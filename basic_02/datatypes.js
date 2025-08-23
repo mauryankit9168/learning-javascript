@@ -4,7 +4,7 @@
 
 
 let a="ankit";
-let age=21;
+let age1=21;
 let isLogged=false;
 
 
@@ -24,15 +24,32 @@ let flag=true;
 let null_val=null;
 let und;
 let array=[1,2,3];
+let sym=Symbol("123");
 
-console.log(typeof num);
-console.log(typeof str);
-console.log(typeof flag);
-console.log(typeof null_val);
-console.log(typeof und);
-console.log(typeof array);
-console.log(typeof null);
-console.log(typeof undefined);
+console.log(typeof num);  //number
+console.log(typeof str);  //string
+console.log(typeof flag);   //boolean
+console.log(typeof null_val);  //object
+console.log(typeof und);   //undefined
+console.log(typeof array);  //object
+console.log(typeof null);   //object
+console.log(typeof undefined);   //undefined
 
+
+//2.reference (Non primitive )
+//array,object,function
+
+const heroes=["hulk","black panther","spiderman"];
+
+
+//object
+let myObject={
+    name2:"kasturi",
+    age2:18,
+}
+
+let myfunction=function(){
+    console.log("hello javascript");
+}
 
 
