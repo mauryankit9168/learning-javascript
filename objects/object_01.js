@@ -17,11 +17,21 @@ const student={
     lastLogged:["monday","saturday"]
 }
 
-//access method
-console.log(student.email);    
-console.log(student["location"]);
-console.log(student["full name"]);   //full name is string so it is not access by dot 
+// //access method
+// console.log(student.email);    
+// console.log(student["location"]);
+// console.log(student["full name"]);   //full name is string so it is not access by dot 
 
-// overwrite and change value
-student.email="name1408@gmail.com"
-Object.freeze(student);   //it lock the original value hene value are not change furture
+// // overwrite and change value
+// student.email="name1408@gmail.com"
+// Object.freeze(student);   //it lock the original value hene value are not change furture
+
+student.greeting=function(){
+    console.log("hello js user");
+}
+console.log(student.greeting());
+
+student.greeting2=function(){
+    console.log(`hello,${this.name}`);    
+}
+console.log(student.greeting2());
