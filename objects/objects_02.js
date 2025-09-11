@@ -1,20 +1,20 @@
-// const tinderUser=new Object();
+// // const tinderUser=new Object();
 
-const tinderUser={}
+// const tinderUser={}
 
-tinderUser.id="1234";
-tinderUser.name="Ankit";
-tinderUser.isLogged=false;
+// tinderUser.id="1234";
+// tinderUser.name="Ankit";
+// tinderUser.isLogged=false;
 
-// console.log(tinderUser);
+// // console.log(tinderUser);
 
 
-//combine two object
+// //combine two object
 
-const obj1={1:"a",2:"b"}
-const obj2={3:"a",4:"d"};
+// const obj1={1:"a",2:"b"}
+// const obj2={3:"a",4:"d"};
 
-const obj3={obj1,obj2};
+// const obj3={obj1,obj2};
 // console.log(obj3);   //{ obj1: { '1': 'a', '2': 'b' }, obj2: { '3': 'a', '4': 'd' } }
 
 // const obj4=Object.assign({},obj1,obj2)   //{} are optional
@@ -26,10 +26,29 @@ const obj3={obj1,obj2};
 // console.log(obj4==obj5);    //false
 
 
-// convert object into array
+// // convert object into array
 
-console.log(Object.keys(tinderUser));  //[ 'id', 'name', 'isLogged' ]
-console.log(Object.values(tinderUser));   //[ '1234', 'Ankit', false ]
-console.log(Object.entries(tinderUser));   //[ [ 'id', '1234' ], [ 'name', 'Ankit' ], [ 'isLogged', false ] ]
+// console.log(Object.keys(tinderUser));  //[ 'id', 'name', 'isLogged' ]
+// console.log(Object.values(tinderUser));   //[ '1234', 'Ankit', false ]
+// console.log(Object.entries(tinderUser));   //[ [ 'id', '1234' ], [ 'name', 'Ankit' ], [ 'isLogged', false ] ]
 
-console.log(tinderUser.hasOwnProperty('isLogged'));   //true  check ki aapke pass value h ya nhi
+// console.log(tinderUser.hasOwnProperty('isLogged'));   //true  check ki aapke pass value h ya nhi
+
+
+//de-structure object
+
+const course={
+    name:"computer",
+    price:99,
+    instructor:"Ankit"
+}
+
+const {name: i}=course    //{} means destructuring
+console.log(i);      //computer
+
+// {
+//     "name":"Ankit",
+//     "course":"js",
+//     "price":"55"
+// }
+//it is json api
